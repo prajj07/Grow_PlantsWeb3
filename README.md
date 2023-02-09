@@ -1,9 +1,10 @@
 # Grow_PlantsWeb3
 
-#Plant Care Contract
+# Plant Care Contract
+
 This is a smart contract for Plant Care management. The contract is designed to provide a platform for monitoring and tracking the growth of a plant. It allows users to record information about their plants and keep track of various interactions such as watering, fertilizing, and pruning.
 
-##Features
+## Features:
 •Record plant information such as plant ID, type, height, width, color, date planted, number of leaves produced, temperature, light level, humidity, and growth rate.
 •Keep track of watering, fertilizing, and pruning interactions by recording the timestamp of each interaction.
 •Award rewards for good plant care.
@@ -11,7 +12,7 @@ This is a smart contract for Plant Care management. The contract is designed to 
 •Store user and plant information such as user address, username, and location.
 
 
-##Usage
+## Usage:
 The contract can be used by deploying it on the Ethereum network using a tool such as Remix. Once the contract is deployed, users can interact with it using their Ethereum wallet. The following are the functions available for interaction:
 
 • 'recordPlantInformation': This function allows users to record information about their plants.
@@ -26,18 +27,20 @@ The contract can be used by deploying it on the Ethereum network using a tool su
 • 'getPruningTimestamp': This function allows users to retrieve the pruning timestamps.
 • 'getRewards': This function allows users to retrieve the rewards earned.
 
-##Requirements
+
+## Requirements
 •Node.js
 •Truffle
 •Ganache
 
-#Installation
+
+## Installation
 
 1. Clone the repository:
-$ git clone https://github.com/<Grow_PlantsWeb3>.git
+$ git clone https://github.com/Grow_PlantsWeb3.git
 
 2.Install the dependencies:
-$ cd <repo-name>
+$ cd Grow_PlantsWeb3
 $ npm install
 
 3.Start Ganache:
@@ -49,11 +52,13 @@ $ truffle migrate
 5.Interact with the contract using Truffle Console:
 $ truffle console
 
-#Contributors
 
+# Contributors:
 Prajwal 
 
-#License
+
+# License
+
 This project is licensed under the MIT License.
 
 
