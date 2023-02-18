@@ -34,25 +34,6 @@ The contract can be used by deploying it on the Ethereum network using a tool su
 •Ganache
 
 
-## Installation
-
-1. Clone the repository:
-$ git clone https://github.com/Grow_PlantsWeb3.git
-
-2.Install the dependencies:
-$ cd Grow_PlantsWeb3
-$ npm install
-
-3.Start Ganache:
-$ ganache-cli
-
-4.Deploy the contract to the local network using Truffle:
-$ truffle migrate
-
-5.Interact with the contract using Truffle Console:
-$ truffle console
-
-
 # Contributors:
 Prajwal 
 
